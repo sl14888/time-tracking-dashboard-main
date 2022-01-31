@@ -1,4 +1,4 @@
-async function getDashboardData(url = '/data.json') {
+async function getDashboardData(url = 'https://github.com/sl14888/time-tracking-dashboard-main/blob/master/data.json') {
   const response = await fetch(url);
   const data = await response.json();
 
